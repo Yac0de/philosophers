@@ -1,0 +1,14 @@
+.vscode/
+philo/.vscode/
+philo_bonus/.vscode/
+
+philo/obj/
+philo_bonus/obj/
+philo/philo
+philo_bonus/philo_bonus
+
+*.o
+
+LazyPhilosophersTester
+
+.gitignore
