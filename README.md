@@ -10,7 +10,7 @@
    - Threads & Mutexes (Mandatory)
    - Processes & Semaphores (Bonus)
    - Race Conditions & Synchronization
-6. [Edge Cases & Common Mistakes](#edge-cases--common-mistakes)
+6. [Common Mistakes](#edge-cases--common-mistakes)
 7. [Example Test Cases](#example-test-cases)
 
 ## Project Overview
@@ -210,7 +210,7 @@ A **race condition** occurs when multiple threads/processes access shared data s
 - In **threads**, mutexes prevent race conditions by ensuring mutual exclusion.
 - In **processes**, semaphores regulate access to shared resources.
 
-## Edge Cases & Common Mistakes
+## Common Mistakes
 
 - ✅ **Deadlocks:** Ensure philosophers **do not wait indefinitely** for forks. Use strategies like **odd/even philosopher staggering**.
 - ✅ **Memory & Resource Cleanup:** Ensure all `malloc()`, `pthread_mutex_destroy()`, and `sem_unlink()` calls are properly handled.
