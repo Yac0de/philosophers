@@ -10,7 +10,7 @@
    - Threads & Mutexes (Mandatory)
    - Processes & Semaphores (Bonus)
    - Race Conditions & Synchronization
-6. [Common Mistakes](#edge-cases--common-mistakes)
+6. [Common Mistakes](#common-mistakes)
 7. [Example Test Cases](#example-test-cases)
 
 ## Project Overview
